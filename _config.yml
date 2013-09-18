@@ -1,17 +1,18 @@
-permalink: /:categories/:year/:month/:day/:title 
+﻿permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 paginate: 4
 
-title : 默默前行
-tagline: 他在哪里？
+title : Stay Hungry,Stay Foolish.Strive for excellence,Keep an open mind.Anti-Virus Hacker. 
+tagline: 他在哪里? Thinking,Fast and Slow.Potentiality Exploitation.
 author :
-  name : cnmahj
-  email : cnmahj@gmail.com
-  github : https://github.com/cnmahj
-  twitter : http://twitter.com/cnmahj
+  name   : leo
+  email  : bjhyey_wl@126.com
+  github : https://github.com/leo2020
+  twitter: http://twitter.com/HackerVirus
+  weibo  : http://weibo.com/wanglong2011
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -21,7 +22,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://cnmahj.toolib.net
+production_url : http://leo2020.github.com/HackerVirus/ #http://hackervirus.toolib.net
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -50,7 +51,7 @@ codepiano :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : /HackerVirus #false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -78,7 +79,7 @@ codepiano :
   comments :
     provider : disqus
     disqus :
-      short_name : junsblog
+      short_name : hackervirusblog
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
