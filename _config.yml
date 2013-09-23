@@ -79,7 +79,7 @@ codepiano :
   comments :
     provider : disqus
     disqus :
-      short_name : hackervirusblog
+      short_name : hackervirus
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
